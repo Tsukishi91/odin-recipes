@@ -1,0 +1,22 @@
+.h1{
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: blue;
+}
+.button{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+    color: brown;
+    font-size: 20px;
+    font-weight: 600;
+}
+.buttonlasagna{
+    background-color: aquamarine;
+}
+.buttonpizza{
+    background-color: rosybrown;
+}
+.buttonpudding{
+    background-color: aqua;
+}
