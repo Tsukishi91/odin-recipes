@@ -1,11 +1,13 @@
 body{
     background-color: aquamarine;
+    width: auto;
 }
 .returnto{
     background-color: bisque;
     font-size: 20px;
     font-weight: 600;
     font-family: 'Times New Roman', Times, sans-serif;
+    margin-left: 900px;
 }
 .header1{
     color: red;
@@ -42,4 +44,18 @@ body{
     font-size: 20px;
     font-weight: 500;
     font-family: 'Times New Roman', Times, sans-serif;
+}
+span{
+    display: inline-block;
+    background: rgb(231, 13, 49);
+    border: 1px solid black;
+    margin: 1px;
+    padding: 3px;
+}
+.bySteps{
+    display: inline-block;
+    background: green;
+    border: 1px solid black;
+    margin: 1px;
+    padding: 3px;
 }

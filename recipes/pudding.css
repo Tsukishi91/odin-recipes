@@ -1,11 +1,13 @@
 body{
     background-color: plum;
+    width: auto;
 }
 .returnto{
     background-color: aqua;
     font-size: 20px;
     font-weight: 600;
     font-family: 'Times New Roman', Times, sans-serif;
+    margin-left: 900px;
 }
 #header1{
     font-size: 40px;
@@ -14,10 +16,14 @@ body{
     color: bisque;
 }
 #header2{
+    display: inline-block;
     font-size: 25px;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
     color: orange;
+    background: white;
+    padding: 2px;
+    margin: 3px;
 }
 #parag2{
     font-size: 25px;
@@ -48,4 +54,24 @@ body{
     font-weight: 400;
     font-family: 'Times New Roman', Times, sans-serif;
     color: seagreen;
+}
+span{
+    background: gold;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 2px;
+    padding: 3px;
+}
+.ingredientList{
+    display: block;
+    background: rgb(4, 107, 44);
+    margin: 2px;
+    padding: 3px;
+    width: 400px; 
+}
+.stepList{
+    display: inline-block;
+    background: rgb(88, 11, 88);
+    margin: 2px;
+    padding: 3px;
 }

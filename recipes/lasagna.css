@@ -1,11 +1,14 @@
 body{
     background-color: blanchedalmond;
+    width: auto;
 }
 .returnto{
-    background-color: rgb(71, 40, 1);
+    background-color: rgb(184, 113, 26);
     font-weight: 600;
     font-size: 20px;
     font-family: 'Times New Roman', Times, sans-serif;
+    margin-left: 900px;
+
 }
 .list{
     color: rgb(80, 128, 8);
@@ -45,8 +48,23 @@ body{
         color: orange;
 }
 #steps{
-    color: rgb(80, 128, 8);
+    color: rgb(128, 8, 8);
     font-size: 15px;
     font-weight: 300;
     font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    display: inline-block;
+    background: white;
+    border: 1px solid black;
+    margin: 2px;
+    padding: 5px;
+}
+.listStep{
+    display: block;
+    background: green;
+    border: 1px solid black;
+    margin: 2px;
+    padding: 3px;
+    width: 400px;
 }

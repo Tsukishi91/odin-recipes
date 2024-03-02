@@ -1,8 +1,36 @@
-.h1{
+body {
+width: 700px;
+background: gold;
+margin: 0 auto;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+.image{
+    max-width: 100%;
+    flex: auto;
+}
+.header{
+    display: flex;
+}
+.header .something{
     font-family: 'Times New Roman', sans-serif;
-    font-size: 12px;
+    font-size: 20px;
     font-weight: 700;
     background-color: blue;
+    text-align: center;
+    flex: auto;
+    padding: 10px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.wrapper input [type="text"]{
+    flex: 1 1 auto;
 }
 .button{
     font-family: Arial, Helvetica, sans-serif;
@@ -10,13 +38,18 @@
     color: brown;
     font-size: 20px;
     font-weight: 600;
+    padding: 5px;
 }
 .buttonlasagna{
     background-color: aquamarine;
+    margin: 10px;
+    float: left;
 }
 .buttonpizza{
     background-color: rosybrown;
+    margin: 8px;
 }
 .buttonpudding{
     background-color: aqua;
+    margin-right: 8px;
 }
